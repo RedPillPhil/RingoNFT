@@ -76,9 +76,6 @@ const Header = () => {
                   <a href="#roadmap">Roadmap</a>
                 </li>
                 <li>
-                  <a href="#team">Team</a>
-                </li>
-                <li>
                   <a href="#faq">FAQ</a>
                 </li>
                 

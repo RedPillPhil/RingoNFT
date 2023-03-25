@@ -3,7 +3,7 @@ import { useModal } from "../../../utils/ModalContext";
 import { FiX } from "react-icons/fi";
 import Button from "../../button";
 import MintModalStyleWrapper from "./MintNow.style";
-import mintImg from "../../../assets/images/icon/mint-img.png";
+import mintImg from "../../../assets/images/icon/200w.webp";
 import hoverShape from "../../../assets/images/icon/hov_shape_L.svg";
 import { totalMintCount, mint } from '../../../utils/web3mint';
 import { useEffect } from "react";
@@ -14,11 +14,11 @@ const MintNowModal = () => {
   const [remaining, setRemaining] = useState(0);
   const { mintModalHandle } = useModal();
 
-  let totalItems = 9999;
-  let price = 0.03;
+  let totalItems = 1000;
+  let price = 20000;
 
   const increaseCount = () => {
-    if(count >= 10){
+    if(count >= 1){
       setMessage('Maximum minting ammount exceeding!');
     }else{
       setCount(count + 1);
@@ -73,7 +73,7 @@ const MintNowModal = () => {
         <div className="mint_modal_box">
           <div className="mint_modal_content">
             <div className="modal_header">
-              <h2>Collect YOUR NFT before end</h2>
+              <h2>Mint YOUR RINGO to bring him to life</h2>
               <button onClick={() => mintModalHandle()}>
                 <FiX />
               </button>
@@ -87,12 +87,12 @@ const MintNowModal = () => {
                   <li>
                     <h5>Remaining</h5>
                     <h5>
-                      {remaining}/<span>9999</span>
+                      {remaining}/<span>1000</span>
                     </h5>
                   </li>
                   <li>
                     <h5>Price</h5>
-                    <h5>{price} ETH</h5>
+                    <h5>{price} CRAB</h5>
                   </li>
                   <li>
                     <h5>Quantity</h5>
@@ -113,7 +113,7 @@ const MintNowModal = () => {
                       <button onClick={() => increaseCount() }>+</button>
                     </div>
                     <h5>
-                      <span>{ count * price }</span> ETH
+                      <span>{ count * price }</span> CRAB
                     </h5>
                   </li>
                 </ul>

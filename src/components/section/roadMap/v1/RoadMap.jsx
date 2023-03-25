@@ -47,6 +47,7 @@ const RoadMap = () => {
     <RoadMapStyleWrapper id="roadmap">
       <div className="container">
         <SectionTitle title="Roadmap" subtitle="Our Goals" />
+        <div className="RoadMapStyleWrapper_div1">Our Ringo journey has been carefully crafted to ensure that we deliver an exciting and engaging experience for our community. Here are the six phases of our roadmap:</div>
         <div className="v1_roadmap_divider">
           <img src={dividerImgShape} alt="bithu nft section divider" />
         </div>
@@ -66,12 +67,15 @@ const RoadMap = () => {
                 </SliderItem>
               ))}
             </Slider>
+            <div></div>
+            <div className="RoadMapStyleWrapper_div1">We are thrilled to be embarking on this journey with our community, and we look forward to bringing you along every step of the way. Stay tuned for more exciting updates and announcements.</div>
           </div>
         </div>
       </div>
       <div className="bithu_roadmap_mass_gard">
         <img src={roadMapBgGrand} alt="bithu nft road map bg" />
       </div>
+
     </RoadMapStyleWrapper>
   );
 };

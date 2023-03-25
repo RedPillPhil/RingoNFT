@@ -1,27 +1,19 @@
 const data = [
   {
-    title: "What is MiNFT ?",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    title: "What are Ringo's ?",
+    text: "Ringos are a one-of-a-kind avatar NFT collection on the CRAB EVM, designed to be a fun and enjoyable addition to the ecosystem. These distinctive digital creatures offer a creative outlet for users to express themselves while contributing to the growth and vibrancy of the CRAB, and Darwinia as a whole.",
   },
   {
-    title: "How we can buy and invest NFT ?",
-    text: "It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur cites of the word in classical literature.",
+    title: "What can I do with my Ringos ?",
+    text: "Ringos can serve as impressive avatars for users to display, but their potential goes beyond just aesthetics. In the near future, these unique creatures will allow their owners to stake and farm $ringo tokens, which will be the native currency of an upcoming NFT exchange on the Ring and Crab networks. Additionally, by combining two different Ringos, users will be able to create brand new 'baby' Ringos. These features make Ringos much more than just a digital accessory, but a valuable asset with various exciting possibilities.",
   },
   {
-    title: "Why we should choose MiNFT ?",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    title: "Where we can buy and sell our NFTs?",
+    text: "The colletion will be available for trading on raregems.io",
   },
   {
-    title: "Where we can buy and sell NFts ?",
-    text: "It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur cites of the word in classical literature.",
-  },
-  {
-    title: "How secure is this token ?",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-  {
-    title: "What is your contract address ?",
-    text: "It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur cites of the word in classical literature.",
+    title: "What is the contract address ?",
+    text: "0x3aC22795304A27edb04Cfe2475DCEf0c5C8B5539",
   },
 ];
 

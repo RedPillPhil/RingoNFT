@@ -28,7 +28,7 @@ const data = [
   },*/
   {
     icon: <FaTelegramPlane />,
-    url: "#",
+    url: "https://t.me/RingoNFT",
   },
   {
     thumb: mediumIcon,

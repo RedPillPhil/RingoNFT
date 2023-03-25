@@ -19,7 +19,7 @@ import aboutCardIcon3 from "../../images/icon/aboutus_card_icon3.svg"
         {
             icon: aboutCardIcon3,
             title: "NFT Exchange",
-            text: 'We are developing an NFT exchange platform on Crab and Darwinia EVM, where users can easily buy, sell and trade their NFTs with others in a secure and reliable manner. This exchange will provide a platform for users to trade their NFTs for other valuable tokens or currencies, thereby increasing the liquidity of the NFT market. The platform will be user-friendly, transparent and cost-effective, making it easy for everyone to participate in the NFT economy'
+            text: 'We are developing an NFT exchange platform on Crab and Darwinia EVM, where users can easily buy, sell and trade their NFTs with others in a secure and reliable manner. This exchange will provide a platform for users to trade their NFTs for other valuable tokens or currencies, thereby increasing the liquidity of the NFT market. The platform will be user-friendly, transparent and cost-effective, making it easy for everyone to participate in the NFT economy.'
         }
     ]
 }

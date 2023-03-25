@@ -72,6 +72,11 @@ const RoadMapStyleWrapper = styled.section`
     z-index: 0;
   }
 
+    .RoadMapStyleWrapper_div1 {
+  color: yellow;
+  font-size: 16px;
+}
+
   @media only screen and (max-width: 991px) {
     padding-bottom: 80px;
 

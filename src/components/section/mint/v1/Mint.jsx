@@ -83,7 +83,7 @@ const Mint = () => {
                     </button>
                   </div>
                   <h5>
-                    <span>0.30</span> ETH
+                    <span>20,000</span> CRAB
                   </h5>
                 </li>
               </ul>

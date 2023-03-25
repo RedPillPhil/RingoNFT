@@ -11,7 +11,7 @@ import { useEffect, useState } from "react";
 import { totalMintCount } from '../../../../utils/web3mint';
 
 const Banner = () => {
-  const { mintModalHandle, connectWalletModalHanlde, account } = useModal();
+  const { mintModalHandle, connectWalletModalHanlde, account, walletModalHandle, } = useModal();
   const [remaining, setRemaining] = useState(0);
 
 function isMobileDevice() {
@@ -19,7 +19,7 @@ function isMobileDevice() {
 }
 
 function openTelegramGroup() {
-  window.open('https://t.me/your_telegram_group', '_blank');
+  window.open('https://t.me/RingoNFT', '_blank');
 }
 
   useEffect(() =>{
@@ -76,7 +76,7 @@ function openTelegramGroup() {
                 {" "}
                 Mint now
               </Button> :
-              <Button lg variant="mint" onClick={() => connectWalletModalHanlde()}>
+              <Button lg variant="mint" onClick={() => walletModalHandle()}>
                 {" "}
                 Mint now
               </Button>
