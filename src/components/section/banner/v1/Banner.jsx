@@ -5,7 +5,7 @@ import BannerV1Wrapper from "./Banner.style";
 
 import characterThumb from "../../../../assets/images/nft/ringobingoGIF.gif";
 import mintLiveDownArrow from "../../../../assets/images/nft/mint_live_down_arrow.svg";
-import mintLiveText from "../../../../assets/images/nft/mint_live_text.png";
+import mintLiveText from "../../../../assets/images/nft/mint_not_live_text.png";
 import homeImageBG from "../../../../assets/images/nft/home_img_bg.png";
 import { useEffect, useState } from "react";
 import { totalMintCount } from '../../../../utils/web3mint';
