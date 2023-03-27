@@ -36,9 +36,10 @@ const CTA = () => {
             </div>
             <div className="col-lg-6">
               <div className="join_comunity_btns">
-                <Button lg variant="mint" className="wishlist_btn">
-                  Whitelist Now
-                </Button>
+<Button lg variant="mint" className="wishlist_btn" onClick={() => window.open("https://t.me/RingoNFT", "_blank")}>
+  Whitelist Now
+</Button>
+
                 <Button lg variant="blue" className="join_discord_btn">
                   {" "}
                   <FaDiscord /> Join Discord

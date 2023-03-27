@@ -5,14 +5,14 @@ export const footerLinksV1 = [
   },
   {
     title: "About",
-    url: "#about",
+    url: "/#about",
   },
   {
     title: "Roadmap",
-    url: "#roadmap",
+    url: "/#roadmap",
   },
   {
     title: "FAQ",
-    url: "#faq",
+    url: "/#faq",
   },
 ];

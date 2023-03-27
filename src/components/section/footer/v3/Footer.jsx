@@ -17,9 +17,7 @@ const Footer = () => {
                   <img src={footerLogo} alt="bithu nft footer logo" />
                 </a>
                 <p>
-                  Bithu is great solution for launch your NFT for minting. It
-                  uses a dictionary over 200 Latin words, combined with a
-                  handful.
+                  Gnarly Ringo boi's
                 </p>
               </div>
             </div>
@@ -41,7 +39,7 @@ const Footer = () => {
             ))}
             <div className="col-md-6 col-lg-4">
               <div className="footer-menu footer_newsletter">
-                <h5 className="menu-title">Subscribe Newsletter</h5>
+                <h5 className="menu-title">Receive Updates</h5>
                 <div className="form-box">
                   <input
                     type="text"

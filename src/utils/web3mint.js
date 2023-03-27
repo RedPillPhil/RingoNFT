@@ -37,3 +37,36 @@ export const totalMintCount = async () => {
         return totalMint;
     }
 }
+
+export const getNftBalance = async () => {
+  if (!isMetaMaskInstalled()) {
+    return 0;
+  }
+
+  const provider = new ethers.providers.Web3Provider(window.ethereum);
+  const signer = provider.getSigner();
+  const contractAddress = "0x3ac22795304a27edb04cfe2475dcef0c5c8b5539";
+  const nftContract = new ethers.Contract(contractAddress, contract, signer);
+
+  const userAddress = await signer.getAddress();
+  const balanceOf = await nftContract.balanceOf(userAddress);
+
+  return balanceOf.toNumber();
+};
+
+export const getNftsByUser = async () => {
+  if (!isMetaMaskInstalled()) {
+    return 0;
+  }
+
+  const provider = new ethers.providers.Web3Provider(window.ethereum);
+  const signer = provider.getSigner();
+  const contractAddress = "0x3ac22795304a27edb04cfe2475dcef0c5c8b5539";
+  const nftContract = new ethers.Contract(contractAddress, contract, signer);
+
+  const userAddress = await signer.getAddress();
+  const ownedByUser = await nftContract.walletOfOwner(userAddress);
+
+  return ownedByUser;
+};
+

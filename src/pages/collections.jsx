@@ -4,8 +4,7 @@ import Layout from "../common/layout";
 import Header from "../components/section/header/v1/Header";
 import PageHeader from "../common/pageHeader/v4";
 import Collection from "../components/section/collection";
-import CTA from "../components/section/cta/v2";
-import Footer from "../components/section/footer/v3";
+import Footer from "../components/section/footer/v4";
 import MetamaskModal from "../common/modal/metamaskModal/MetamaskModal"; 
 import WalletModal from "../common/modal/walletModal/WalletModal";
 
@@ -22,8 +21,7 @@ const CollectionsPage = () => {
         <Header />
         <PageHeader />
         <Collection />
-        <CTA />
-        <Footer />
+       <Footer />
       </Layout>
     </>
   );

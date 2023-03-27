@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import breadcumdBg from "../../../assets/images/bg/breadcumb-bg.jpg";
+import breadcumdBg from "../../../assets/images/bg/v5-baner1.jpg";
 const PageHeaderStyleWrapper = styled.div`
   background: url(${breadcumdBg});
   background-position: center;

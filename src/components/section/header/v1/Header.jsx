@@ -67,16 +67,19 @@ const Header = () => {
             <div className="bithu_menu_list">
               <ul>
                 <li>
-                  <a href="#home">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="#about">About</a>
+                  <a href="/#about">About</a>
                 </li>
                 <li>
-                  <a href="#roadmap">Roadmap</a>
+                  <a href="/#roadmap">Roadmap</a>
                 </li>
                 <li>
-                  <a href="#faq">FAQ</a>
+                  <a href="/#faq">FAQ</a>
+                </li>
+                <li>
+                  <a href="collections">My Ringo's</a>
                 </li>
                 
               </ul>

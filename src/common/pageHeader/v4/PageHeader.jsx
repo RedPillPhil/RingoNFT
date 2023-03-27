@@ -20,21 +20,7 @@ const PageHeader = () => {
             </div>
           </div>
 
-          <div className="col-md-7">
-            <div className="breadcrumb_form">
-              <form onSubmit={(e) => e.preventDefault()}>
-                <input
-                  type="text"
-                  id="Search"
-                  name="search"
-                  placeholder="Search by articles , categories"
-                />
-                <button>
-                  <FiSearch />
-                </button>
-              </form>
-            </div>
-          </div>
+        
         </div>
       </div>
     </PageHeaderStyleWrapper>

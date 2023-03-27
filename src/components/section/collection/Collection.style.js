@@ -46,6 +46,18 @@ const CollectionStyleWrapper = styled.section`
       margin-top: 50px;
     }
   }
+
+  .nft-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.nft-image {
+  width: 300px;
+  height: 300px;
+}
 `;
 
 export default CollectionStyleWrapper;

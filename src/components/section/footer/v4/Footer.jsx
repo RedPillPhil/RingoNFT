@@ -30,7 +30,7 @@ const Footer = () => {
                     </a>
                   </div>
                   <div className="copiright_text">
-                    <p>Copyright © 2022 Bithu</p>
+                    <p>Copyright © 2023 RingoLabs</p>
                   </div>
                 </div>
                 <a href="# " className="bact_to_top_btn">

@@ -43,21 +43,21 @@ const MobileMenu = ({ mobileMenuhandle }) => {
         </div>
         <div className="bithu_mobile_menu_list">
           <ul>
-            <li className="mobile_menu_hide">
-              <a href="#home">Home</a>
-            </li>
-            <li className="mobile_menu_hide">
-              <a href="#about">About</a>
-            </li>
-            <li className="mobile_menu_hide">
-              <a href="#roadmap">Roadmap</a>
-            </li>
-            <li className="mobile_menu_hide">
-              <a href="#team">Team</a>
-            </li>
-            <li className="mobile_menu_hide">
-              <a href="#faq">FAQ</a>
-            </li>
+                <li>
+                  <a href="/">Home</a>
+                </li>
+                <li>
+                  <a href="/#about">About</a>
+                </li>
+                <li>
+                  <a href="/#roadmap">Roadmap</a>
+                </li>
+                <li>
+                  <a href="/#faq">FAQ</a>
+                </li>
+                <li>
+                  <a href="collections">My Ringo's</a>
+                </li>
             
           </ul>
         </div>
