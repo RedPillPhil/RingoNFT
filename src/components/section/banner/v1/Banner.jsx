@@ -92,7 +92,9 @@ function openTelegramGroup() {
             <span>Max 1 NFTs per mint transaction. Price<span className="highlighted"> 20,000 CRAB</span></span>
             <span>
               MINT IS{" "}
-              <span className="highlighted">LIVE</span>
+              <span className="highlighted">NOT </span>
+                          <span>LIVE</span></span>
+            <span>
             </span>
           </div>
         </div>
