@@ -14,8 +14,11 @@ import ContactPage from "../pages/contact";
 import MintPageOne from "../pages/mint-1";
 import MintPageTwo from "../pages/mint-2";
 import FAQPage from "../pages/faq";
+import { isMetaMaskInstalled } from "../config";
+import { useEffect } from "react";
 
 function App() {
+
   return (
     <Routes>
       <Route path="/" element={<HomeV1 />} exact />

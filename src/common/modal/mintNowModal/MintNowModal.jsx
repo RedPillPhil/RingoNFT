@@ -16,6 +16,13 @@ const MintNowModal = () => {
 
   let totalItems = 1000;
   let price = 20000;
+  let chain = "CRAB";
+
+  const chainId = Number(window.ethereum.chainId);
+  if (chainId === 46) {
+    price = 2000;
+    chain = "RING";
+  }
 
   const increaseCount = () => {
     if(count >= 1){
@@ -92,7 +99,7 @@ const MintNowModal = () => {
                   </li>
                   <li>
                     <h5>Price</h5>
-                    <h5>{price} CRAB</h5>
+                    <h5>{price} {chain}</h5>
                   </li>
                   <li>
                     <h5>Quantity</h5>
@@ -113,7 +120,7 @@ const MintNowModal = () => {
                       <button onClick={() => increaseCount() }>+</button>
                     </div>
                     <h5>
-                      <span>{ count * price }</span> CRAB
+                      <span>{ count * price }</span> {chain}
                     </h5>
                   </li>
                 </ul>

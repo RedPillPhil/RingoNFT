@@ -8,10 +8,19 @@ import { getNftBalance, getNftsByUser } from "../../../utils/web3mint";
 import Counter from "../../../common/counter";
 
 const Collection = () => {
-  const contractAddress = "0x3ac22795304a27edb04cfe2475dcef0c5c8b5539";
+  const chainId = Number(window.ethereum.chainId);
+  console.log("Chain ID:", chainId);
+    const contractAddress = useMemo(() => {
+    if (chainId === 46) {
+      return "0x4dFc074698A1975a40df6F50971037013a596348";
+    } else {
+      return "0x3ac22795304a27edb04cfe2475dcef0c5c8b5539";
+    }
+  }, []);
   const provider = new ethers.providers.Web3Provider(window.ethereum);
   const signer = provider.getSigner();
-  const nftContract = useMemo(() => new ethers.Contract(contractAddress, contract, signer), [contractAddress, signer]);
+  console.log("Using contract address:", contractAddress);
+  const nftContract = new ethers.Contract(contractAddress, contract, signer);
   const [userAddress, setUserAddress] = useState("");
   const [remaining, setRemaining] = useState(0);
   const [nftIds, setNftIds] = useState([]);
@@ -62,17 +71,22 @@ const Collection = () => {
 
       <div></div>
 
-      <div className="nft-container">
-        {nftIds.length > 0 &&
-          nftIds.map((tokenId) => (
-            <img
-              key={tokenId}
-              src={`https://bafybeianqc6hbhbjejh2dvww6bb2srbu37kyf5uuzs7ztflsfpiwkz5vha.ipfs.w3s.link/${tokenId}.png`}
-              className="nft-image"
-              alt={`NFT with id ${tokenId}`}
-            />
-          ))}
-      </div>
+<div className="nft-container">
+  {nftIds.length > 0 &&
+    nftIds.map((tokenId) => (
+      <img
+        key={tokenId}
+        src={
+          chainId === 46
+            ? `https://bafybeia5g6dg4ncpobc6rqaoaw5kk6gjk3wt56r7jehpkx3r4oxln6mlw4.ipfs.w3s.link/${tokenId}.png`
+            : `https://bafybeianqc6hbhbjejh2dvww6bb2srbu37kyf5uuzs7ztflsfpiwkz5vha.ipfs.w3s.link/${tokenId}.png`
+        }
+        className="nft-image"
+        alt={`NFT with id ${tokenId}`}
+      />
+    ))}
+</div>
+
     </CollectionStyleWrapper>
   );
 };
