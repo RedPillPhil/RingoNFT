@@ -4,7 +4,7 @@ import { isMetaMaskInstalled, ethereum } from '../config';
 
 const getContractAddress = (chainId) => {
   if (chainId === 46) {
-    return "0x690959F4a13CdB3CD04EaD15b8a1365fC7aA674e";
+    return "0x639FB36F2b8fA26F1176ebA36E34Ab38170d2b17";
   } else {
     return "0x3ac22795304a27edb04cfe2475dcef0c5c8b5539";
   }

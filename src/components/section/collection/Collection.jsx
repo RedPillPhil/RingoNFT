@@ -78,7 +78,7 @@ const Collection = () => {
         key={tokenId}
         src={
           chainId === 46
-            ? `https://bafybeia5g6dg4ncpobc6rqaoaw5kk6gjk3wt56r7jehpkx3r4oxln6mlw4.ipfs.w3s.link/${tokenId}.png`
+            ? `https://bafybeiautv2zrn4ihvuc7amtdtgjp4dvrsm3zeuo4fc3g2y6wenwsei2ce.ipfs.w3s.link/${tokenId}.png`
             : `https://bafybeianqc6hbhbjejh2dvww6bb2srbu37kyf5uuzs7ztflsfpiwkz5vha.ipfs.w3s.link/${tokenId}.png`
         }
         className="nft-image"
