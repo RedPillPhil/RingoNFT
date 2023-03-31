@@ -309,6 +309,8 @@ const MintStyleWrapper = styled.section`
       }
     }
   }
+
+  
 `;
 
 export default MintStyleWrapper;

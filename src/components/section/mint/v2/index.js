@@ -1,3 +1,3 @@
-import Mint from "./Mint";
+import Staking from "./Staking";
 
-export default Mint;
+export default Staking;

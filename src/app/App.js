@@ -11,14 +11,10 @@ import AboutPage from "../pages/about";
 import RoadmapPage from "../pages/roadmap";
 import Collections from "../pages/collections";
 import ContactPage from "../pages/contact";
-import MintPageOne from "../pages/mint-1";
-import MintPageTwo from "../pages/mint-2";
+import StakingPage from "../pages/staking";
 import FAQPage from "../pages/faq";
-import { isMetaMaskInstalled } from "../config";
-import { useEffect } from "react";
 
 function App() {
-
   return (
     <Routes>
       <Route path="/" element={<HomeV1 />} exact />
@@ -34,8 +30,7 @@ function App() {
       <Route path="/roadmap" element={<RoadmapPage />} />
       <Route path="/collections" element={<Collections />} />
       <Route path="/contact" element={<ContactPage />} />
-      <Route path="/mint-1" element={<MintPageOne />} />
-      <Route path="/mint-2" element={<MintPageTwo />} />
+      <Route path="/staking" element={<StakingPage />} />
     </Routes>
   );
 }

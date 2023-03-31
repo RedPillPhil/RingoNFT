@@ -53,7 +53,7 @@ const Mint = () => {
                 <li>
                   <h5>Remaining</h5>
                   <h5>
-                    4583/<span>9999</span>
+                    /<span>9999</span>
                   </h5>
                 </li>
                 <li>

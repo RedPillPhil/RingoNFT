@@ -80,6 +80,8 @@ const Header = () => {
                 </li>
                 <li>
                   <a href="collections">My Ringo's</a>
+                </li>                <li>
+                  <a href="staking">Staking Matrix</a>
                 </li>
                 
               </ul>
