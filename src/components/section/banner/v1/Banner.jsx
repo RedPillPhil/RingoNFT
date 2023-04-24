@@ -119,7 +119,10 @@ function openTelegramGroup() {
 <div></div>
 
               MINT IS{" "}
-              <span className="highlighted">LIVE </span>
+              <span className="highlighted">LIVE</span>
+                          </span>
+            <span>
+            </span>
           </div>
         </div>
       </div>
