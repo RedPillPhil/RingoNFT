@@ -1,22 +1,22 @@
 { 
     "info": [
         {
-            "text": "Total Items",
-            "number": "1000",
+            "text": "Total Items (Combined)",
+            "number": "2000",
             "unit": ""
         }, 
         {
-            "text": "Total Owners",
-            "number": "2",
+            "text": "Total Owners (Combined)",
+            "number": "5",
             "unit": ""
         }, 
         {
-            "text": "Floor Price (CRAB)",
+            "text": "Floor Price (USD)",
             "number": "???",
             "unit": ""
         }, 
         {
-            "text": "Volume Traded (CRAB)",
+            "text": "Volume Traded (USD)",
             "number": "0",
             "unit": "k"
         }
